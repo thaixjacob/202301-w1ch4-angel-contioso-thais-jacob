@@ -1,0 +1,36 @@
+.main__carrousel-photos {
+  display: flex;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: #ed6436;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+button {
+  background-color: #ed6436;
+  color: white;
+  border: none;
+  border-radius: 0 1.2rem 1.2rem 1.2rem;
+  padding: 0.6rem;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main__carrousel-photos-card {
+  margin: 1rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .main__carrousel-photos {
+    flex-direction: column;
+  }
+}
