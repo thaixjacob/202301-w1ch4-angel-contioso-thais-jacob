@@ -29,6 +29,14 @@ button {
   margin: 1rem 1rem;
 }
 
+section.main__carrousel-photos-card {
+  width: 33%;
+}
+
+article.main__carrousel-photos img {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .main__carrousel-photos {
     flex-direction: column;
